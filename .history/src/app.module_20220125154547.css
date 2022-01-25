@@ -1,0 +1,6 @@
+.app{
+   background-color: var(--body-background);
+}
+.class__ul{
+   background-color: var(--components-background);
+}

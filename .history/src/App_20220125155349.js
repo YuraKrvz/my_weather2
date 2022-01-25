@@ -11,16 +11,15 @@ export default function App() {
 
      <ul className={s.class__ul}>
       <li className={s.class__li}>****</li>
-      <li>***12312*</li>
-      <li>***aasdasd*</li>
-      <li>**sadasda**</li>
-      <li>**adsdasd**</li>
+      <li>****</li>
+      <li>****</li>
+      <li>****</li>
+      <li>****</li>
      </ul>
 
      <hr />
 
-     <button onClick={()=> setTheme(!theme)}>Click</button>
-     <button onClick={()=> setTheme('dark')}>Click</button>
+     <button>Click</button>
 
     </div>
   );

@@ -1,0 +1,10 @@
+.app{
+   background-color: var(--body-background);
+}
+.class__ul{
+   background-color: var(--components-background);
+}
+.class__li{
+   background-color: var(--card-background);
+   color: var(--text-color);
+}

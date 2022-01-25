@@ -19,8 +19,7 @@ export default function App() {
 
      <hr />
 
-     <button onClick={()=> setTheme(!theme)}>Click</button>
-     <button onClick={()=> setTheme('dark')}>Click</button>
+     <button>Click</button>
 
     </div>
   );
