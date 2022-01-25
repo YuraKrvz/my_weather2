@@ -1,0 +1,33 @@
+.wrapper{
+   display: flex;
+   justify-content: center;
+}
+.main{
+   height: 300px;
+   width: 400px;
+   background-color: var(--components-background);
+   box-shadow: var(--card-shadow);
+   border-radius: 5px;
+}
+.temp__main{
+   width: 160px;
+   height: 117px;
+   font-family: Montserrat;
+   font-style: normal;
+   font-weight: 500;
+   font-size: 96px;
+   line-height: 117px;
+   color: var(--color-default-blue);
+}
+.day{
+   font-family: Montserrat;
+   font-style: normal;
+}
+.time{}
+.city{}
+.description{}
+.list{}
+.temp__description{}
+.pressure{}
+.precipitation{}
+.wind{}

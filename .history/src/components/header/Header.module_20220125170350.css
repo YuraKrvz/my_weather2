@@ -1,0 +1,36 @@
+.wrap__header{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   background-color: var(--components-background);
+   box-shadow: var(--card-shadow);
+   border-radius: 5px;
+   padding: 10px;
+   margin: 0 auto;
+   width: 1000px;
+   height: 65px;
+   left: 360px;
+   top: 20px;
+}
+.inner{
+   display: flex;
+   align-items: center;
+}
+.logo__img{
+   width: 45px;
+}
+.header__logo_text{
+   margin-left: 20px;
+   width: 230px;
+   height: 30px;
+   font-style: normal;
+   font-weight: bold;
+   font-size: 25px;
+   line-height: 30px;
+   text-transform: uppercase;
+   font-family: Montserrat;
+   color: var(--color-default-blue);
+}
+.button__theme{
+
+}

@@ -1,0 +1,19 @@
+.wrapper{
+   display: flex;
+   justify-content: center;
+}
+.main{
+   height: 400px;
+   width: 300px;
+   background-color: var(--components-background);
+}
+.temp__main{}
+.day{}
+.time{}
+.city{}
+.description{}
+.list{}
+.temp__description{}
+.pressure{}
+.precipitation{}
+.wind{}
