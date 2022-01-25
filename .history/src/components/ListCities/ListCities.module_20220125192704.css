@@ -1,0 +1,11 @@
+.wrapper{
+   background-color: var(--components-background);
+   border-bottom-left-radius: 5px;
+   border-bottom-right-radius: 5px;
+}
+.city{}
+.name{}
+.date{}
+.temp__max{}
+.temp__min{}
+.precipitation{}
