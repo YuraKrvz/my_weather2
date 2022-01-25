@@ -12,9 +12,7 @@ export default function Header() {
          <GeneratorSvgIcon className={s.logo__img} id='header-logo' />
          <h1 className={s.header__logo_text}>My weather</h1>
       </div>
-      <span onClick={()=> setTheme(!theme)} >
-         <GeneratorSvgIcon className={s.logo__img} id='change-theme'/>
-      </span>
+      <GeneratorSvgIcon className={s.logo__img} id='change-theme' onClick={()=> setTheme(!theme)} />
    </header>
   );
 }

@@ -1,7 +1,6 @@
 .wrap__header{
    display: flex;
    justify-content: space-between;
-   align-items: center;
    background-color: var(--components-background);
    box-shadow: var(--card-shadow);
    border-radius: 5px;
@@ -20,7 +19,6 @@
    width: 45px;
 }
 .header__logo_text{
-   margin-left: 20px;
    width: 230px;
    height: 30px;
    font-style: normal;
