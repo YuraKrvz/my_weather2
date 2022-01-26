@@ -18,7 +18,7 @@ export default function MyWeather(props) {
                alt="pressure" 
             />
          </span>
-         <p className={s.time}>Time: {getTime()}</p>
+         <p className={s.time}>Time: {getTime(date)}</p>
          <p className={s.city}>City: {props && props.city.data.name}</p>
       </div>
       <div className={s.description}>

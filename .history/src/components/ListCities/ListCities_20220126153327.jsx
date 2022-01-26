@@ -19,7 +19,7 @@ export default function ListCities() {
          <GeneratorSvgIcon className={s.city__close} id='close'/>
          <button onClick={()=> dispatch(deleteCity({name: city.name}))}>del</button>
         </span>
-        <p className={s.date}>{getDate()}</p>
+        <p className={s.date}>{getDate}</p>
         <img className={s.city__img} src={`https://openweathermap.org/img/wn/${city.weather[0].icon}@2x.png`} alt="icon weather" />
         <p className={s.temp__max}>{Math.round(city.main.temp)}</p>
         <p className={s.temp__min}>{Math.round(city.main.temp_min)}</p>

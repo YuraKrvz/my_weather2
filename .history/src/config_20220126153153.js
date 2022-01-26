@@ -12,8 +12,7 @@ export const getDate = () => {
    return `${date.getDate()}.${month}.${date.getFullYear()}`
 };
 
-export const getTime = () => {
-   const date = new Date(); 
+export const getTime = (date) => {
    let hours = date.getHours();
        hours = hours < 10 ? '0' + hours : hours;
    let minutes = date.getMinutes();
