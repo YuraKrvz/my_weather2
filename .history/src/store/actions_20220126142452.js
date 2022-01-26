@@ -5,6 +5,10 @@ export const addCity = (obj) => ({
    payload: obj
 });
 
+
+// export const deleteCity = (obj) => (console.log(obj));
+
+
 export const deleteCity = (obj) => ({
    type: DELETE_CITY,
    payload: obj

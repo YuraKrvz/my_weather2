@@ -4,7 +4,6 @@ export const addCity = (obj) => ({
    type: ADD_CITY,
    payload: obj
 });
-
 export const deleteCity = (obj) => ({
    type: DELETE_CITY,
    payload: obj

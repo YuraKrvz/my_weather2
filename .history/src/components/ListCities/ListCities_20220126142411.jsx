@@ -3,7 +3,7 @@ import { GeneratorSvgIcon } from '../../assets/GeneratorSvgIcon';
 import s from './ListCities.module.css';
 import { useSelector, useDispatch } from 'react-redux';
 import { deleteCity } from '../../store/actions';
-//add data new Date or change funcr
+
 export default function ListCities() {
   const dispatch = useDispatch();
   const store = useSelector((state)=> state.cities);

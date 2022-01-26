@@ -6,17 +6,15 @@ const initialState = {cities: [example]}
 export const reducer = (state = initialState, action)=>{
    switch(action.type) {
      case ADD_CITY:
-          if(!!state.cities.find(c => c.name.toLowerCase() === action.payload.name.toLowerCase())){
-            return state;
-          } else if( state.cities.length >= 5){
-            return state;
-          } else {
-            return {
-              ...state,
-              cities: [...state.cities, action.payload]
-            };
-          }
-          
+       console.log(action.payload.name)
+       if(!!state.cities.find(c => c.name === action.payload)){
+         console.log('not find')
+          return {
+            ...state,
+            cities: [...state.cities, action.payload]
+          };
+       } console.log('find')
+       
      case DELETE_CITY:
        return {
          ...state,

@@ -3,7 +3,7 @@ import { GeneratorSvgIcon } from '../../assets/GeneratorSvgIcon';
 import s from './ListCities.module.css';
 import { useSelector, useDispatch } from 'react-redux';
 import { deleteCity } from '../../store/actions';
-//add data new Date or change funcr
+//add data new Date or change func
 export default function ListCities() {
   const dispatch = useDispatch();
   const store = useSelector((state)=> state.cities);
@@ -11,7 +11,7 @@ export default function ListCities() {
   return (
      <section className={s.wrapper}>
 
-       {store.map(city => (
+       {store !== null ? store.map(city => (
         <div className={s.city} key={city.name}>
         <span className={s.city__head_wrap}>
          <h6 className={s.name}>{city.name}</h6>
@@ -24,7 +24,7 @@ export default function ListCities() {
         <p className={s.temp__min}>{Math.round(city.main.temp_min)}</p>
         <p className={s.precipitation}>{city.weather[0].description}</p>
       </div>  
-       ))}   
+       )) : null}   
 
      </section>
   );

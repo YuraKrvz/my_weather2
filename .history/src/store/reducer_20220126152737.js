@@ -10,13 +10,12 @@ export const reducer = (state = initialState, action)=>{
             return state;
           } else if( state.cities.length >= 5){
             return state;
-          } else {
+          }
             return {
               ...state,
               cities: [...state.cities, action.payload]
             };
-          }
-          
+
      case DELETE_CITY:
        return {
          ...state,

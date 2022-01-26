@@ -1,13 +1,10 @@
 import React from 'react';
 import { GeneratorSvgIcon } from '../../assets/GeneratorSvgIcon';
 import s from './ListCities.module.css';
-import { useSelector, useDispatch } from 'react-redux';
-import { deleteCity } from '../../store/actions';
-//add data new Date or change funcr
+import { useSelector } from 'react-redux';
+
 export default function ListCities() {
-  const dispatch = useDispatch();
   const store = useSelector((state)=> state.cities);
-  
   return (
      <section className={s.wrapper}>
 
@@ -16,7 +13,6 @@ export default function ListCities() {
         <span className={s.city__head_wrap}>
          <h6 className={s.name}>{city.name}</h6>
          <GeneratorSvgIcon className={s.city__close} id='close'/>
-         <button onClick={()=> dispatch(deleteCity({name: city.name}))}>del</button>
         </span>
         <p className={s.date}>25.01.2022</p>
         <img className={s.city__img} src={`https://openweathermap.org/img/wn/${city.weather[0].icon}@2x.png`} alt="icon weather" />
@@ -25,7 +21,7 @@ export default function ListCities() {
         <p className={s.precipitation}>{city.weather[0].description}</p>
       </div>  
        ))}   
-
+       
      </section>
   );
 };
