@@ -68,9 +68,3 @@
 .temp__min, .precipitation{
    font-size: 15px;
 }
-
-@media(max-width: 750px) {
-   .wrapper{
-      justify-content: center;
-   }
-}

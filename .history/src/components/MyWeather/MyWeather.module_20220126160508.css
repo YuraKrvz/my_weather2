@@ -121,10 +121,6 @@
    }
    .description{
       padding: 5px;
-   }
-}
-@media(max-width: 490px){
-   .description{
-      max-width: 300px;
+      /* max-width: 350px; */
    }
 }

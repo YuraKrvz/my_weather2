@@ -59,7 +59,7 @@
 
 }
 
-/* adaptive */
+/* @ media screen */
 
 @media(max-width: 620px){
    .wrap__header{

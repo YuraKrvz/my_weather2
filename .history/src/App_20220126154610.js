@@ -9,8 +9,9 @@ export default function App() {
     <Provider store={store}>
       <div className='container'>
         <Header />
-        <Weather />
+        
       </div>
     </Provider>
   );
 };
+//<Weather />

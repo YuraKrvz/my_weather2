@@ -19,9 +19,10 @@ export default function Weather() {
      <>
        {currentPos && <>
          <MyWeather city={currentPos} />
-         <ListCities />
+        
        </>}  
        
      </>
    );
-};
+}
+// <ListCities />

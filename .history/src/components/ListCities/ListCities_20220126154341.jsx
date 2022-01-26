@@ -1,8 +1,9 @@
-import { useSelector, useDispatch } from 'react-redux';
+import React from 'react';
 import { GeneratorSvgIcon } from '../../assets/GeneratorSvgIcon';
-import { deleteCity } from '../../store/actions';
 import { getDate } from '../../config';
 import s from './ListCities.module.css';
+import { useSelector, useDispatch } from 'react-redux';
+import { deleteCity } from '../../store/actions';
 
 export default function ListCities() {
   const dispatch = useDispatch();

@@ -70,7 +70,5 @@
 }
 
 @media(max-width: 750px) {
-   .wrapper{
-      justify-content: center;
-   }
+   
 }

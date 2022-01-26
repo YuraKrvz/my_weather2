@@ -102,29 +102,9 @@
       justify-content: space-around;
    }
    .description{
-      max-width: 450px;
+      max-width: 550px;
    }
 }
 @media(max-width: 1014px){
-   .main{
-      max-width: 300px;
-   }
-}
-@media(max-width: 915px){
-   .wrapper{
-      flex-direction: column;
-      align-items: center;
-      justify-content: space-between;
-   }
-   .main{
-      margin-bottom: 20px;
-   }
-   .description{
-      padding: 5px;
-   }
-}
-@media(max-width: 490px){
-   .description{
-      max-width: 300px;
-   }
+   
 }

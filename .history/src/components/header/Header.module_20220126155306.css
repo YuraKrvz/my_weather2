@@ -59,8 +59,7 @@
 
 }
 
-/* adaptive */
-
+/*  */
 @media(max-width: 620px){
    .wrap__header{
       flex-direction: column;
