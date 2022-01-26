@@ -309,7 +309,6 @@ export const GeneratorSvgIcon = ({ id, className, onClick = null }) => {
     case 'close':
       return (
         <svg
-          onClick={onClick}
           className={className}
           width="18"
           height="18"

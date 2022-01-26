@@ -21,6 +21,7 @@ export default function ListCities() {
           id='close'
           onClick={()=> dispatch(deleteCity({name: city.name}))}
          />
+         <button onClick={()=> dispatch(deleteCity({name: city.name}))}>del</button>
         </span>
         <p className={s.date}>{getDate()}</p>
         <img className={s.city__img} src={`https://openweathermap.org/img/wn/${city.weather[0].icon}@2x.png`} alt="icon weather" />
