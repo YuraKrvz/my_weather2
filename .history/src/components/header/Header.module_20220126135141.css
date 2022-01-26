@@ -31,29 +31,13 @@
    font-family: Montserrat;
    color: var(--color-default-blue);
 }
-.search{
-   padding: 0 10px 0 10px;
-   text-decoration: none;
-}
-.search input:active, :hover, :focus {
-   outline: 0;
-   outline-offset: 0;
-}
 .search, .search__btn{
-   background-color: var(--components-background);
-   border: 1px solid var(--color-default-blue);
-   box-shadow: var(--card-shadow);
-   color: var(--color-default-blue);
-   width: 150px;
+   width: 194px;
    height: 37px;
    border-radius: 10px;
 }
 .search__btn{
-   margin-left: 5px;
-   width: 60px;
-}
-.search__btn:hover, .search:hover{
-   box-shadow: none;
+   width: 70px;
 }
 .button__theme{
 

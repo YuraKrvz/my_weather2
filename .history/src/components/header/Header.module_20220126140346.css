@@ -38,6 +38,7 @@
 .search input:active, :hover, :focus {
    outline: 0;
    outline-offset: 0;
+   box-shadow: var(--card-shadow);
 }
 .search, .search__btn{
    background-color: var(--components-background);
@@ -51,9 +52,6 @@
 .search__btn{
    margin-left: 5px;
    width: 60px;
-}
-.search__btn:hover, .search:hover{
-   box-shadow: none;
 }
 .button__theme{
 

@@ -52,7 +52,7 @@
    margin-left: 5px;
    width: 60px;
 }
-.search__btn:hover, .search:hover{
+.search__btn:hover{
    box-shadow: none;
 }
 .button__theme{

@@ -30,14 +30,8 @@ export default function Header() {
          <h1 className={s.header__logo_text}>My weather v2</h1>
       </div>
       <span className={s.right}>
-         <input 
-            value={input} 
-            onChange={(e)=> setInput(e.target.value)} 
-            onKeyUp={handlerOnKeyEnter} 
-            className={s.search}
-            type="text" 
-         />
-         <button onClick={()=> findCity(input)} className={s.search__btn} >search</button>
+         <input value={input} onChange={(e)=> setInput(e.target.value)} onKeyUp={handlerOnKeyEnter} type="text" />
+         <button onClick={()=> findCity(input)} >search</button>
          <span onClick={()=> setTheme(!theme)} >
             <GeneratorSvgIcon className={s.logo__img} id='change-theme'/>
          </span>
